@@ -12,6 +12,8 @@
 
 @interface CityDetailViewController () <UINavigationControllerDelegate>
 
+@property (nonatomic, weak) IBOutlet UITextView *textView;
+
 @end
 
 @implementation CityDetailViewController
@@ -22,7 +24,11 @@
     [super viewDidLoad];
     
     self.cityImageView.image = self.city.image;
-    self.title = self.city.name;    
+    self.textView.text = self.city.overview;
+    self.textView.textColor = [UIColor whiteColor];
+    self.title = self.city.name;
+    
+    NSLog(@"Text: %@", self.textView.text);
 }
 
 - (void)viewDidAppear:(BOOL)animated {

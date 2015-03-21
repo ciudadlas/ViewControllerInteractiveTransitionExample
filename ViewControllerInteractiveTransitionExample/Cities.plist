@@ -10,7 +10,7 @@
 		<key>country</key>
 		<string>Japan</string>
 		<key>overview</key>
-		<string></string>
+		<string>Tōkyō (東京) is the capital of Japan. At over 13 million people in the official metropolitan area alone, Tokyo is the core of the second most populated urban area in the world, Tokyo Metropolis (which has a population of over 37 million people). This huge, wealthy and fascinating metropolis brings high-tech visions of the future side by side with glimpses of old Japan, and has something for everyone.</string>
 		<key>imageName</key>
 		<string>tokyo.jpg</string>
 	</dict>
@@ -22,7 +22,7 @@
 		<key>country</key>
 		<string>India</string>
 		<key>overview</key>
-		<string></string>
+		<string>Delhi is India&apos;s capital city and the home of executive, legislative, and judiciary branches of the Government of India. Delhi is a large metropolis with strengths in arts, commerce, education, entertainment, fashion, finance, healthcare, media, professional services, research and development, tourism and transport all contributing to its prominence.</string>
 		<key>imageName</key>
 		<string>delhi.jpg</string>
 	</dict>
@@ -34,7 +34,7 @@
 		<key>country</key>
 		<string>China</string>
 		<key>overview</key>
-		<string></string>
+		<string>Shanghai (上海 Shànghǎi) , with a population of more than 23 million (with over 9 million migrants), is the largest and traditionally the most developed metropolis in Mainland China. Shanghai was the largest and most prosperous city in the Far East during the 1930s. In the past 20 years it has again become an attractive city for tourists from all over the world. The world once again had its eyes on the city when it hosted the 2010 World Expo, recording the greatest number of visitors in the event&apos;s history.</string>
 		<key>imageName</key>
 		<string>shanghai.jpg</string>
 	</dict>
@@ -46,19 +46,19 @@
 		<key>country</key>
 		<string>Mexico</string>
 		<key>overview</key>
-		<string></string>
+		<string>Mexico City (Spanish: México, Ciudad de México, or D.F. (pronounced deh eh-feh)) is the capital city of Mexico, and the largest city in North America by population</string>
 		<key>imageName</key>
 		<string>mexico.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Sao Paulo</string>
+		<string>São Paulo</string>
 		<key>population</key>
 		<string>21,000,000</string>
 		<key>country</key>
 		<string>Brazil</string>
 		<key>overview</key>
-		<string></string>
+		<string>São Paulo is a municipality, metropolis and global city located in southeastern Brazil. It is the most populous city in Brazil, in the Americas, and the world&apos;s twelfth largest city by population. The metropolis is anchor to the São Paulo metropolitan area, ranked as the most populous metropolitan area in Brazil, the second in the Americas and the seventh in the world.[2] São Paulo is the capital of the state of São Paulo, Brazil&apos;s most populous and wealthiest state. It exerts strong regional influence in commerce, finance, arts and entertainment and a strong international influence.[3] The name of the city honors Saint Paul of Tarsus.</string>
 		<key>imageName</key>
 		<string>sao.jpg</string>
 	</dict>
@@ -70,7 +70,7 @@
 		<key>country</key>
 		<string>India</string>
 		<key>overview</key>
-		<string></string>
+		<string>Mumbai is the capital city of the Indian state of Maharashtra. It is the most populous city in India, most populous metropolitan area in India, and the eighth most populous city in the world, with an estimated city population of 18.4 million and metropolitan area population of 20.7 million as of 2011.[7] Along with the urban areas, including the cities of Navi Mumbai, Thane, Bhiwandi, Kalyan, it is one of the most populous urban regions in the world.[8] Mumbai lies on the west coast of India and has a deep natural harbour. In 2009, Mumbai was named an alpha world city.[9] It is also the wealthiest city in India,[10] and has the highest GDP of any city in South, West or Central Asia.[citation needed] Mumbai has the highest number of billionaires and millionaires than any other city in India</string>
 		<key>imageName</key>
 		<string>mumbai.jpg</string>
 	</dict>
@@ -82,7 +82,7 @@
 		<key>country</key>
 		<string>Japan</string>
 		<key>overview</key>
-		<string></string>
+		<string>Osaka is a designated city in the Kansai region of Japan. It is the capital city of Osaka Prefecture and the largest component of the Keihanshin Metropolitan Area, the second largest metropolitan area in Japan and among the largest in the world with nearly 19 million inhabitants. Situated at the mouth of the Yodo River on Osaka Bay, Osaka is Japan&apos;s second largest city by the daytime population after the Tokyo 23 wards, and serves as a major economic hub.</string>
 		<key>imageName</key>
 		<string>osaka.jpg</string>
 	</dict>
@@ -94,7 +94,7 @@
 		<key>country</key>
 		<string>China</string>
 		<key>overview</key>
-		<string></string>
+		<string>Beijing, sometimes romanized as Peking, is the capital of the People&apos;s Republic of China and one of the most populous cities in the world. The population as of 2013 was 20,150,000. The city proper is the 3rd largest in the world.[7] The metropolis, located in northern China, is governed as a direct-controlled municipality under the national government, with 14 urban and suburban districts and two rural counties.[8] Beijing Municipality is surrounded by Hebei Province with the exception of neighboring Tianjin Municipality to the southeast.</string>
 		<key>imageName</key>
 		<string>beijing.jpg</string>
 	</dict>
@@ -106,7 +106,7 @@
 		<key>country</key>
 		<string>New York, USA</string>
 		<key>overview</key>
-		<string></string>
+		<string>Newark is the largest city (by population) in the U.S. state of New Jersey, and the county seat of Essex County.[23][24] One of the nation&apos;s major air, shipping, and rail hubs, the city had a population of 277,140 in 2010, making it the nation&apos;s 67th most-populous municipality, after being ranked 63rd in the nation in 2000.[12]</string>
 		<key>imageName</key>
 		<string>newark.jpg</string>
 	</dict>
@@ -118,7 +118,7 @@
 		<key>country</key>
 		<string>Egypt</string>
 		<key>overview</key>
-		<string></string>
+		<string>Cairo is the capital of Egypt and the largest city in the Middle-East and second-largest in Africa after Lagos. Its metropolitan area is the 16th largest in the world. Located near the Nile Delta,[1][2] it was founded in AD 969. Nicknamed &quot;the city of a thousand minarets&quot; for its preponderance of Islamic architecture, Cairo has long been a center of the region&apos;s political and cultural life. Cairo was founded by Jawhar al-Siqilli &quot;The Sicilian&quot;,among the Fatimid dynasty in the 10th century CE, but the land composing the present-day city was the site of national capitals whose remnants remain visible in parts of Old Cairo. Cairo is also associated with Ancient Egypt as it is close to the ancient cities of Memphis, Giza and Fustat which are near the Great Sphinx and the pyramids of Giza.</string>
 		<key>imageName</key>
 		<string>cairo.jpg</string>
 	</dict>

@@ -119,13 +119,24 @@
                                     <constraint firstAttribute="height" constant="120" id="1JQ-bF-IeL"/>
                                 </constraints>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gze-G1-Vah">
+                                <rect key="frame" x="16" y="197" width="568" height="388"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="Gze-G1-Vah" firstAttribute="top" secondItem="aaW-gu-pLx" secondAttribute="bottom" constant="13" id="AlS-wP-PEP"/>
                             <constraint firstItem="aaW-gu-pLx" firstAttribute="leading" secondItem="H2b-iW-qNS" secondAttribute="leading" id="CzR-Zl-FgF"/>
                             <constraint firstAttribute="trailing" secondItem="aaW-gu-pLx" secondAttribute="trailing" id="Es4-fw-rnz"/>
                             <constraint firstItem="XJQ-up-fh0" firstAttribute="top" secondItem="aaW-gu-pLx" secondAttribute="bottom" constant="416" id="Lho-Xm-DVD"/>
                             <constraint firstItem="aaW-gu-pLx" firstAttribute="top" secondItem="S3w-hN-2vj" secondAttribute="bottom" id="PUP-u4-f1I"/>
+                            <constraint firstItem="XJQ-up-fh0" firstAttribute="top" secondItem="Gze-G1-Vah" secondAttribute="bottom" constant="15" id="cQ0-O0-5Jc"/>
+                            <constraint firstItem="Gze-G1-Vah" firstAttribute="centerX" secondItem="aaW-gu-pLx" secondAttribute="centerX" id="g9r-2s-T6C"/>
+                            <constraint firstItem="Gze-G1-Vah" firstAttribute="leading" secondItem="H2b-iW-qNS" secondAttribute="leadingMargin" id="k9F-TE-XP2"/>
                             <constraint firstAttribute="centerX" secondItem="aaW-gu-pLx" secondAttribute="centerX" id="lod-qp-Gh4"/>
                         </constraints>
                         <variation key="default">
@@ -136,6 +147,7 @@
                     </view>
                     <connections>
                         <outlet property="cityImageView" destination="aaW-gu-pLx" id="Ksy-C4-5Qm"/>
+                        <outlet property="textView" destination="Gze-G1-Vah" id="5oh-CN-fs8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SGf-Kg-ogf" userLabel="First Responder" sceneMemberID="firstResponder"/>
