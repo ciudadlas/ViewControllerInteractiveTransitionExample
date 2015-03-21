@@ -18,11 +18,11 @@
     [super layoutSubviews];
     
     // Add a background view for readability
-    CGRect frame = CGRectMake(0, self.bounds.size.height - 20, self.bounds.size.width, 20);
-    UIView *view = [[UIView alloc] initWithFrame:frame];
-    view.backgroundColor = [UIColor blackColor];
-    view.alpha = 0.5;
-    [self.cellBackgroundImageView addSubview:view];
+//    CGRect frame = CGRectMake(0, self.bounds.size.height - 20, self.bounds.size.width, 20);
+//    UIView *view = [[UIView alloc] initWithFrame:frame];
+//    view.backgroundColor = [UIColor blackColor];
+//    view.alpha = 0.5;
+//    [self.cellBackgroundImageView addSubview:view];
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

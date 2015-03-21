@@ -46,25 +46,37 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m6j-7V-U7m">
                                                     <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBa-yz-TcW">
-                                                    <rect key="frame" x="6" y="102" width="61" height="15"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Y8-ok-heN">
-                                                    <rect key="frame" x="532" y="102" width="62" height="15"/>
-                                                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
-                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ofh-DE-ylv">
+                                                    <rect key="frame" x="0.0" y="100" width="600" height="20"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBa-yz-TcW">
+                                                            <rect key="frame" x="8" y="2" width="61" height="15"/>
+                                                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Population" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Y8-ok-heN">
+                                                            <rect key="frame" x="530" y="2" width="62" height="15"/>
+                                                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstItem="iBa-yz-TcW" firstAttribute="leading" secondItem="ofh-DE-ylv" secondAttribute="leading" constant="8" id="4VF-zK-fkE"/>
+                                                        <constraint firstItem="iBa-yz-TcW" firstAttribute="top" secondItem="ofh-DE-ylv" secondAttribute="top" constant="2" id="FjU-gN-gpb"/>
+                                                        <constraint firstAttribute="height" constant="20" id="jhN-Qr-bbF"/>
+                                                        <constraint firstAttribute="trailing" secondItem="5Y8-ok-heN" secondAttribute="trailing" constant="8" id="o1V-5h-9p1"/>
+                                                        <constraint firstItem="5Y8-ok-heN" firstAttribute="top" secondItem="ofh-DE-ylv" secondAttribute="top" constant="2" id="pM0-N7-nrv"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="iBa-yz-TcW" firstAttribute="leading" secondItem="UHY-pD-gO7" secondAttribute="leadingMargin" constant="-2" id="DFg-io-lru"/>
+                                                <constraint firstItem="ofh-DE-ylv" firstAttribute="leading" secondItem="UHY-pD-gO7" secondAttribute="leading" id="CnU-QJ-uMM"/>
                                                 <constraint firstAttribute="bottom" secondItem="m6j-7V-U7m" secondAttribute="bottom" id="GU2-OZ-JaN"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="5Y8-ok-heN" secondAttribute="trailing" constant="-2" id="KWX-Sm-COw"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="iBa-yz-TcW" secondAttribute="bottom" constant="-5" id="NNA-Xd-OdT"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="5Y8-ok-heN" secondAttribute="bottom" constant="-5" id="Npw-V5-9xQ"/>
+                                                <constraint firstAttribute="trailing" secondItem="ofh-DE-ylv" secondAttribute="trailing" id="H2g-2F-gHY"/>
+                                                <constraint firstAttribute="bottom" secondItem="ofh-DE-ylv" secondAttribute="bottom" id="JZa-K6-H0M"/>
                                                 <constraint firstItem="m6j-7V-U7m" firstAttribute="leading" secondItem="UHY-pD-gO7" secondAttribute="leading" id="TuJ-wQ-MSh"/>
                                                 <constraint firstAttribute="trailing" secondItem="m6j-7V-U7m" secondAttribute="trailing" id="ZNv-Yy-hhi"/>
                                                 <constraint firstItem="m6j-7V-U7m" firstAttribute="top" secondItem="UHY-pD-gO7" secondAttribute="top" id="lcz-ez-kBL"/>
@@ -99,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1169" y="-419"/>
+            <point key="canvasLocation" x="1169" y="-359"/>
         </scene>
         <!--City Detail View Controller-->
         <scene sceneID="ABf-Jb-SZy">
