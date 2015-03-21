@@ -74,6 +74,7 @@
                                             <outlet property="cellBackgroundImageView" destination="m6j-7V-U7m" id="gdp-Az-Jl8"/>
                                             <outlet property="cityNameLabel" destination="iBa-yz-TcW" id="1kz-Tt-TlC"/>
                                             <outlet property="populationLabel" destination="5Y8-ok-heN" id="Sb5-wg-KAg"/>
+                                            <segue destination="wjb-yQ-soT" kind="show" id="Yd5-su-duF"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -92,10 +93,31 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="83N-gb-zFa"/>
+                    <connections>
+                        <outlet property="tableView" destination="shB-pD-I4C" id="Gso-ZX-aUC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1169" y="-419"/>
+        </scene>
+        <!--City Detail View Controller-->
+        <scene sceneID="ABf-Jb-SZy">
+            <objects>
+                <viewController id="wjb-yQ-soT" customClass="CityDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S3w-hN-2vj"/>
+                        <viewControllerLayoutGuide type="bottom" id="XJQ-up-fh0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H2b-iW-qNS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGf-Kg-ogf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1889" y="-397"/>
         </scene>
     </scenes>
 </document>

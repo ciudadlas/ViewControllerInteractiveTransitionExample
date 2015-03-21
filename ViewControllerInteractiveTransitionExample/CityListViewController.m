@@ -9,9 +9,11 @@
 #import "CityListViewController.h"
 #import "City.h"
 #import "CityTableViewCell.h"
+#import "CityDetailViewController.h"
 
 @interface CityListViewController ()
 
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *cities;
 
 @end
@@ -41,6 +43,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.destinationViewController isKindOfClass:[CityDetailViewController class]]) {
+        
+        // Get the selected row index path
+        NSIndexPath *selectedIndexPath = [self.tableView indexPathForSelectedRow];
+        
+        // Set the city on the view controller we're about to show
+        if (selectedIndexPath != nil) {
+            CityDetailViewController *cityDetailViewController = segue.destinationViewController;
+            cityDetailViewController.city = self.cities[selectedIndexPath.row];
+        }
+    }
+}
+
 #pragma mark - UITableViewDataSource methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -56,8 +72,6 @@
     City *city = [self.cities objectAtIndex:indexPath.row];
     
     [cell updateInterfaceWithCity:city];
-    
-    
     return cell;
 }
 
