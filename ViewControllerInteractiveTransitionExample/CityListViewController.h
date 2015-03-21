@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CityListViewController.h
 //  ViewControllerInteractiveTransitionExample
 //
 //  Created by Serdar Karatekin on 3/20/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CitiesViewController : UIViewController
+@interface CityListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 
 @end

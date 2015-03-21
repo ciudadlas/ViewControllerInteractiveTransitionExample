@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		9F5834871ABCD00500455B70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834861ABCD00500455B70 /* main.m */; };
 		9F58348A1ABCD00500455B70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834891ABCD00500455B70 /* AppDelegate.m */; };
-		9F58348D1ABCD00500455B70 /* CitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58348C1ABCD00500455B70 /* CitiesViewController.m */; };
+		9F58348D1ABCD00500455B70 /* CityListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F58348C1ABCD00500455B70 /* CityListViewController.m */; };
 		9F5834901ABCD00500455B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F58348E1ABCD00500455B70 /* Main.storyboard */; };
 		9F5834921ABCD00500455B70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5834911ABCD00500455B70 /* Images.xcassets */; };
 		9F5834951ABCD00500455B70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5834931ABCD00500455B70 /* LaunchScreen.xib */; };
 		9F5834A11ABCD00500455B70 /* ViewControllerInteractiveTransitionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834A01ABCD00500455B70 /* ViewControllerInteractiveTransitionExampleTests.m */; };
 		9F5834AC1ABCD2A200455B70 /* CityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */; };
+		9F5834B11ABCDD9F00455B70 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834B01ABCDD9F00455B70 /* City.m */; };
+		9F5834B41ABCE22300455B70 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F5834B31ABCE22300455B70 /* Cities.plist */; };
+		9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +36,8 @@
 		9F5834861ABCD00500455B70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F5834881ABCD00500455B70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F5834891ABCD00500455B70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F58348B1ABCD00500455B70 /* CitiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitiesViewController.h; sourceTree = "<group>"; };
-		9F58348C1ABCD00500455B70 /* CitiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitiesViewController.m; sourceTree = "<group>"; };
+		9F58348B1ABCD00500455B70 /* CityListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityListViewController.h; sourceTree = "<group>"; };
+		9F58348C1ABCD00500455B70 /* CityListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityListViewController.m; sourceTree = "<group>"; };
 		9F58348F1ABCD00500455B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5834911ABCD00500455B70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9F5834941ABCD00500455B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +46,11 @@
 		9F5834A01ABCD00500455B70 /* ViewControllerInteractiveTransitionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerInteractiveTransitionExampleTests.m; sourceTree = "<group>"; };
 		9F5834AA1ABCD2A200455B70 /* CityDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetailViewController.h; sourceTree = "<group>"; };
 		9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetailViewController.m; sourceTree = "<group>"; };
+		9F5834AF1ABCDD9F00455B70 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		9F5834B01ABCDD9F00455B70 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		9F5834B31ABCE22300455B70 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		9F5834B91ABD26E500455B70 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +94,9 @@
 			children = (
 				9F5834881ABCD00500455B70 /* AppDelegate.h */,
 				9F5834891ABCD00500455B70 /* AppDelegate.m */,
-				9F58348B1ABCD00500455B70 /* CitiesViewController.h */,
-				9F58348C1ABCD00500455B70 /* CitiesViewController.m */,
-				9F5834AA1ABCD2A200455B70 /* CityDetailViewController.h */,
-				9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */,
+				9F5834AE1ABCDD8E00455B70 /* Models */,
+				9F5834B21ABCE08C00455B70 /* City List View */,
+				9F5834B81ABD222400455B70 /* City Detail View */,
 				9F58348E1ABCD00500455B70 /* Main.storyboard */,
 				9F5834911ABCD00500455B70 /* Images.xcassets */,
 				9F5834931ABCD00500455B70 /* LaunchScreen.xib */,
@@ -101,6 +108,7 @@
 		9F5834841ABCD00500455B70 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F5834B31ABCE22300455B70 /* Cities.plist */,
 				9F5834851ABCD00500455B70 /* Info.plist */,
 				9F5834861ABCD00500455B70 /* main.m */,
 			);
@@ -122,6 +130,35 @@
 				9F58349F1ABCD00500455B70 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5834AE1ABCDD8E00455B70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F5834AF1ABCDD9F00455B70 /* City.h */,
+				9F5834B01ABCDD9F00455B70 /* City.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9F5834B21ABCE08C00455B70 /* City List View */ = {
+			isa = PBXGroup;
+			children = (
+				9F58348B1ABCD00500455B70 /* CityListViewController.h */,
+				9F58348C1ABCD00500455B70 /* CityListViewController.m */,
+				9F5834B91ABD26E500455B70 /* CityTableViewCell.h */,
+				9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */,
+			);
+			name = "City List View";
+			sourceTree = "<group>";
+		};
+		9F5834B81ABD222400455B70 /* City Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				9F5834AA1ABCD2A200455B70 /* CityDetailViewController.h */,
+				9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */,
+			);
+			name = "City Detail View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +244,7 @@
 				9F5834901ABCD00500455B70 /* Main.storyboard in Resources */,
 				9F5834951ABCD00500455B70 /* LaunchScreen.xib in Resources */,
 				9F5834921ABCD00500455B70 /* Images.xcassets in Resources */,
+				9F5834B41ABCE22300455B70 /* Cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F5834B11ABCDD9F00455B70 /* City.m in Sources */,
 				9F5834AC1ABCD2A200455B70 /* CityDetailViewController.m in Sources */,
-				9F58348D1ABCD00500455B70 /* CitiesViewController.m in Sources */,
+				9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */,
+				9F58348D1ABCD00500455B70 /* CityListViewController.m in Sources */,
 				9F58348A1ABCD00500455B70 /* AppDelegate.m in Sources */,
 				9F5834871ABCD00500455B70 /* main.m in Sources */,
 			);
