@@ -6,21 +6,57 @@
 		<key>name</key>
 		<string>Tokyo</string>
 		<key>population</key>
-		<string>28,846,170</string>
+		<string>38,000,000</string>
 		<key>country</key>
-		<string>China</string>
+		<string>Japan</string>
 		<key>overview</key>
-		<string>Chongqing (simplified Chinese: 重庆; traditional Chinese: 重慶; pinyin: Chóngqìng /tʃɒŋ ˈtʃɪŋ/; former transliteration: Chungking[a] /tʃʌŋ ˈkɪŋ/) is a major city in Southwest China and one of the five national central cities in China. Administratively, it is one of China&apos;s four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in inland China.</string>
+		<string></string>
 		<key>imageName</key>
 		<string>chongqing.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
+		<string>Delhi</string>
+		<key>population</key>
+		<string>25,000,000</string>
+		<key>country</key>
+		<string>India</string>
+		<key>overview</key>
+		<string></string>
+		<key>imageName</key>
+		<string>shanghai.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
 		<string>Shanghai</string>
 		<key>population</key>
-		<string>24,150,000</string>
+		<string>23,500,000</string>
 		<key>country</key>
 		<string>China</string>
+		<key>overview</key>
+		<string></string>
+		<key>imageName</key>
+		<string>karachi.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Mexico City</string>
+		<key>population</key>
+		<string>21,000,000</string>
+		<key>country</key>
+		<string>Mexico</string>
+		<key>overview</key>
+		<string></string>
+		<key>imageName</key>
+		<string>chongqing.jpg</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Sao Paulo</string>
+		<key>population</key>
+		<string>21,000,000</string>
+		<key>country</key>
+		<string>Brazil</string>
 		<key>overview</key>
 		<string>Shanghai is the largest Chinese city by population[8][9] and the largest city proper by population in the world.[10] It is one of the four direct-controlled municipalities of the People&apos;s Republic of China, with a population of more than 24 million as of 2013.[5] It is a global financial center,[11] and a transport hub with the world&apos;s busiest container port.[12] Located in the Yangtze River Delta in East China, Shanghai sits on the south edge of the mouth of the Yangtze in the middle portion of the Chinese coast. The municipality borders the provinces of Jiangsu and Zhejiang to the north, south and west, and is bounded to the east by the East China Sea.</string>
 		<key>imageName</key>
@@ -28,97 +64,61 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Karachi</string>
+		<string>Mumbai</string>
 		<key>population</key>
-		<string>23,500,000</string>
+		<string>21,000,000</string>
 		<key>country</key>
-		<string>Pakistan</string>
+		<string>India</string>
 		<key>overview</key>
-		<string>Karachi (Sindhi: ڪراچي, Urdu: کراچی‎ / ALA-LC: Karācī IPA: [kəˈrɑːˌtʃi] ( listen)) is capital of province Sindh as well as the largest and most populous metropolitan city of Pakistan and the main seaport and financial centre of the country. Karachi is also known as City of Lights mainly due to city&apos;s night life, for which it is famous as the city which never sleeps. Karachi metro has an estimated population of over 23.5 million people as of 2013,[1] and area of approximately 3,527 km2 (1,362 sq mi),[7][8] resulting in a density of more than 6,000 people per square kilometre (15,500 per square mile).</string>
+		<string></string>
 		<key>imageName</key>
 		<string>karachi.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Tokyo</string>
+		<string>Osaka</string>
 		<key>population</key>
-		<string>28,846,170</string>
+		<string>20,000,000</string>
 		<key>country</key>
-		<string>China</string>
+		<string>Japan</string>
 		<key>overview</key>
-		<string>Chongqing (simplified Chinese: 重庆; traditional Chinese: 重慶; pinyin: Chóngqìng /tʃɒŋ ˈtʃɪŋ/; former transliteration: Chungking[a] /tʃʌŋ ˈkɪŋ/) is a major city in Southwest China and one of the five national central cities in China. Administratively, it is one of China&apos;s four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in inland China.</string>
+		<string></string>
 		<key>imageName</key>
 		<string>chongqing.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Shanghai</string>
+		<string>Beijing</string>
 		<key>population</key>
-		<string>24,150,000</string>
+		<string>19,000,000</string>
 		<key>country</key>
 		<string>China</string>
 		<key>overview</key>
-		<string>Shanghai is the largest Chinese city by population[8][9] and the largest city proper by population in the world.[10] It is one of the four direct-controlled municipalities of the People&apos;s Republic of China, with a population of more than 24 million as of 2013.[5] It is a global financial center,[11] and a transport hub with the world&apos;s busiest container port.[12] Located in the Yangtze River Delta in East China, Shanghai sits on the south edge of the mouth of the Yangtze in the middle portion of the Chinese coast. The municipality borders the provinces of Jiangsu and Zhejiang to the north, south and west, and is bounded to the east by the East China Sea.</string>
+		<string></string>
 		<key>imageName</key>
 		<string>shanghai.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Karachi</string>
+		<string>Newark</string>
 		<key>population</key>
-		<string>23,500,000</string>
+		<string>18,500,000</string>
 		<key>country</key>
-		<string>Pakistan</string>
+		<string>New York, USA</string>
 		<key>overview</key>
-		<string>Karachi (Sindhi: ڪراچي, Urdu: کراچی‎ / ALA-LC: Karācī IPA: [kəˈrɑːˌtʃi] ( listen)) is capital of province Sindh as well as the largest and most populous metropolitan city of Pakistan and the main seaport and financial centre of the country. Karachi is also known as City of Lights mainly due to city&apos;s night life, for which it is famous as the city which never sleeps. Karachi metro has an estimated population of over 23.5 million people as of 2013,[1] and area of approximately 3,527 km2 (1,362 sq mi),[7][8] resulting in a density of more than 6,000 people per square kilometre (15,500 per square mile).</string>
+		<string></string>
 		<key>imageName</key>
 		<string>karachi.jpg</string>
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>Tokyo</string>
+		<string>Cairo</string>
 		<key>population</key>
-		<string>28,846,170</string>
+		<string>18,500,000</string>
 		<key>country</key>
-		<string>China</string>
+		<string>Egypt</string>
 		<key>overview</key>
-		<string>Chongqing (simplified Chinese: 重庆; traditional Chinese: 重慶; pinyin: Chóngqìng /tʃɒŋ ˈtʃɪŋ/; former transliteration: Chungking[a] /tʃʌŋ ˈkɪŋ/) is a major city in Southwest China and one of the five national central cities in China. Administratively, it is one of China&apos;s four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in inland China.</string>
-		<key>imageName</key>
-		<string>chongqing.jpg</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Shanghai</string>
-		<key>population</key>
-		<string>24,150,000</string>
-		<key>country</key>
-		<string>China</string>
-		<key>overview</key>
-		<string>Shanghai is the largest Chinese city by population[8][9] and the largest city proper by population in the world.[10] It is one of the four direct-controlled municipalities of the People&apos;s Republic of China, with a population of more than 24 million as of 2013.[5] It is a global financial center,[11] and a transport hub with the world&apos;s busiest container port.[12] Located in the Yangtze River Delta in East China, Shanghai sits on the south edge of the mouth of the Yangtze in the middle portion of the Chinese coast. The municipality borders the provinces of Jiangsu and Zhejiang to the north, south and west, and is bounded to the east by the East China Sea.</string>
-		<key>imageName</key>
-		<string>shanghai.jpg</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Karachi</string>
-		<key>population</key>
-		<string>23,500,000</string>
-		<key>country</key>
-		<string>Pakistan</string>
-		<key>overview</key>
-		<string>Karachi (Sindhi: ڪراچي, Urdu: کراچی‎ / ALA-LC: Karācī IPA: [kəˈrɑːˌtʃi] ( listen)) is capital of province Sindh as well as the largest and most populous metropolitan city of Pakistan and the main seaport and financial centre of the country. Karachi is also known as City of Lights mainly due to city&apos;s night life, for which it is famous as the city which never sleeps. Karachi metro has an estimated population of over 23.5 million people as of 2013,[1] and area of approximately 3,527 km2 (1,362 sq mi),[7][8] resulting in a density of more than 6,000 people per square kilometre (15,500 per square mile).</string>
-		<key>imageName</key>
-		<string>karachi.jpg</string>
-	</dict>
-	<dict>
-		<key>name</key>
-		<string>Tokyo</string>
-		<key>population</key>
-		<string>28,846,170</string>
-		<key>country</key>
-		<string>China</string>
-		<key>overview</key>
-		<string>Chongqing (simplified Chinese: 重庆; traditional Chinese: 重慶; pinyin: Chóngqìng /tʃɒŋ ˈtʃɪŋ/; former transliteration: Chungking[a] /tʃʌŋ ˈkɪŋ/) is a major city in Southwest China and one of the five national central cities in China. Administratively, it is one of China&apos;s four direct-controlled municipalities (the other three are Beijing, Shanghai and Tianjin), and the only such municipality in inland China.</string>
+		<string></string>
 		<key>imageName</key>
 		<string>chongqing.jpg</string>
 	</dict>

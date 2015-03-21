@@ -84,7 +84,7 @@
     CityTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CityCell" forIndexPath:indexPath];
     City *city = [self.cities objectAtIndex:indexPath.row];
     
-    [cell updateInterfaceWithCity:city];
+    [cell updateInterfaceWithCity:city indexPath:indexPath];
     return cell;
 }
 

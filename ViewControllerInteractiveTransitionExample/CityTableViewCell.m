@@ -16,12 +16,10 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
 }
 
-- (void)updateInterfaceWithCity:(City *)city {
-    self.cityNameLabel.text = [NSString stringWithFormat:@"%@, %@", city.name, city.country];
+- (void)updateInterfaceWithCity:(City *)city indexPath:(NSIndexPath *)indexPath {
+    self.cityNameLabel.text = [NSString stringWithFormat:@"%ld. %@, %@", (long)indexPath.row + 1, city.name, city.country];
     self.populationLabel.text = city.population;
     self.cellBackgroundImageView.image = city.image;
 }

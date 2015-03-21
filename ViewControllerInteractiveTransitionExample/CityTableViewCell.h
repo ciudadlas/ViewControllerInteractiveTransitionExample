@@ -15,6 +15,6 @@
 @property (nonatomic, weak) IBOutlet UILabel *populationLabel;
 @property (nonatomic, weak) IBOutlet UIImageView *cellBackgroundImageView;
 
-- (void)updateInterfaceWithCity:(City *)city;
+- (void)updateInterfaceWithCity:(City *)city indexPath:(NSIndexPath *)indexPath;
 
 @end
