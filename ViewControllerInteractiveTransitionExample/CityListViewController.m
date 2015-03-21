@@ -26,8 +26,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         _cities = [City mostPopulatedCities];
-        self.title = @"Most Populated Cities";
-        NSLog(@"Cities loaded: %@", _cities);
+        self.title = @"World's Most Populated Cities";
     }
     
     return self;
@@ -100,6 +99,18 @@
     else {
         return nil;
     }
+}
+
+#pragma mark - Helper methods
+
+- (CityTableViewCell *)tableViewCellForCity:(City *)city {
+    
+    NSUInteger cityIndex = [self.cities indexOfObject:city];
+    if (cityIndex == NSNotFound) {
+        return nil;
+    }
+    
+    return (CityTableViewCell *)[self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:cityIndex inSection:0]];
 }
 
 @end

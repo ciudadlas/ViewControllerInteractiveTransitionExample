@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class CityTableViewCell;
+@class City;
+
 @interface CityListViewController : UIViewController
+
+- (CityTableViewCell *)tableViewCellForCity:(City *)city;
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 

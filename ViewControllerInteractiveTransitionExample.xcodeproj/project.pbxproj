@@ -19,6 +19,7 @@
 		9F5834B41ABCE22300455B70 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F5834B31ABCE22300455B70 /* Cities.plist */; };
 		9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */; };
 		9F5834BF1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834BE1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m */; };
+		9F5834C21ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834C11ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
 		9F5834BD1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListToCityDetailTransitionAnimator.h; sourceTree = "<group>"; };
 		9F5834BE1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListToCityDetailTransitionAnimator.m; sourceTree = "<group>"; };
+		9F5834C01ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetailToCityListTransitionAnimator.h; sourceTree = "<group>"; };
+		9F5834C11ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetailToCityListTransitionAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 			children = (
 				9F5834AA1ABCD2A200455B70 /* CityDetailViewController.h */,
 				9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */,
+				9F5834C01ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.h */,
+				9F5834C11ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.m */,
 			);
 			name = "02 - City Detail View";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 				9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */,
 				9F58348D1ABCD00500455B70 /* CityListViewController.m in Sources */,
 				9F5834BF1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m in Sources */,
+				9F5834C21ABD491D00455B70 /* CityDetailToCityListTransitionAnimator.m in Sources */,
 				9F58348A1ABCD00500455B70 /* AppDelegate.m in Sources */,
 				9F5834871ABCD00500455B70 /* main.m in Sources */,
 			);

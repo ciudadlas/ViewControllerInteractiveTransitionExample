@@ -41,6 +41,8 @@
         
         // Move the cell snapshot so it's over the second view controller's image view
         CGRect frame = [containerView convertRect:toViewController.cityImageView.frame fromView:toViewController.view];
+        frame.size.width = cell.frame.size.width;
+        NSLog(@"animate to frame: %@", NSStringFromCGRect(frame));
         cellImageSnapshot.frame = frame;
         
     } completion:^(BOOL finished) {
@@ -55,7 +57,7 @@
 }
 
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
-    return 0.3;
+    return 0.25;
 }
 
 @end

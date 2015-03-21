@@ -7,22 +7,55 @@
 //
 
 #import "CityDetailViewController.h"
+#import "CityListViewController.h"
+#import "CityDetailToCityListTransitionAnimator.h"
 
-@interface CityDetailViewController ()
+@interface CityDetailViewController () <UINavigationControllerDelegate>
 
 @end
 
 @implementation CityDetailViewController
 
+#pragma mark - View Lifecycle
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.cityImageView.image = self.city.image;
+    self.title = self.city.name;    
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    // Set ourself as the navigation controller's delegate so we're asked for a transitioning object
+    self.navigationController.delegate = self;
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    
+    // Stop being the navigation controller's delegate
+    if (self.navigationController.delegate == self) {
+        self.navigationController.delegate = nil;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark UINavigationControllerDelegate methods
+
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
+    
+    // Check if we are transitioning from this view controller to a CityListViewController
+    if (fromVC == self && [toVC isKindOfClass:[CityListViewController class]]) {
+        return [[CityDetailToCityListTransitionAnimator alloc] init];
+    }
+    else {
+        return nil;
+    }
 }
 
 /*
