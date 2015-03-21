@@ -1,7 +1,5 @@
 # ViewControllerInteractiveTransitionExample
 
-This is an example of how to create a custom and interactive transition when switching between view controllers.
-
 ![ScreenShot](/preview/example.gif)
 
 This is an example of how to create a custom and interactive transition when switching between view controllers. On a high level, there are 3 steps to building the animation.
@@ -23,6 +21,3 @@ Once these animator classes are in place, we have to tell our view controllers t
 At this point we have the custom animations working in our app. Now, we want to make the user be able to interact with this transition animation.
 
 To make the pop animation interactive, we add a gesutre recognizer for screen left edge panning on the detail view controller. We then update the `UIPercentDrivenInteractiveTransition` object on the gesture recognizer delegate method to update the transition of the view controller as the user pans accordingly.
-
-
-
