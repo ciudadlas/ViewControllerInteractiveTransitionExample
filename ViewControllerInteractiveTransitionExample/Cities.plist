@@ -10,7 +10,7 @@
 		<key>country</key>
 		<string>Japan</string>
 		<key>overview</key>
-		<string>Tōkyō (東京) is the capital of Japan. At over 13 million people in the official metropolitan area alone, Tokyo is the core of the second most populated urban area in the world, Tokyo Metropolis (which has a population of over 37 million people). This huge, wealthy and fascinating metropolis brings high-tech visions of the future side by side with glimpses of old Japan, and has something for everyone.</string>
+		<string>Tokyo is the capital of Japan. At over 13 million people in the official metropolitan area alone, Tokyo is the core of the second most populated urban area in the world, Tokyo Metropolis (which has a population of over 37 million people). This huge, wealthy and fascinating metropolis brings high-tech visions of the future side by side with glimpses of old Japan, and has something for everyone.</string>
 		<key>imageName</key>
 		<string>tokyo.jpg</string>
 	</dict>
@@ -34,7 +34,7 @@
 		<key>country</key>
 		<string>China</string>
 		<key>overview</key>
-		<string>Shanghai (上海 Shànghǎi) , with a population of more than 23 million (with over 9 million migrants), is the largest and traditionally the most developed metropolis in Mainland China. Shanghai was the largest and most prosperous city in the Far East during the 1930s. In the past 20 years it has again become an attractive city for tourists from all over the world. The world once again had its eyes on the city when it hosted the 2010 World Expo, recording the greatest number of visitors in the event&apos;s history.</string>
+		<string>Shanghai, with a population of more than 23 million (with over 9 million migrants), is the largest and traditionally the most developed metropolis in Mainland China. Shanghai was the largest and most prosperous city in the Far East during the 1930s. In the past 20 years it has again become an attractive city for tourists from all over the world. The world once again had its eyes on the city when it hosted the 2010 World Expo, recording the greatest number of visitors in the event&apos;s history.</string>
 		<key>imageName</key>
 		<string>shanghai.jpg</string>
 	</dict>

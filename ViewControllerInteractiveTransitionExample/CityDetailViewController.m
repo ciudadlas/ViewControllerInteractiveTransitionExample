@@ -26,9 +26,7 @@
     self.cityImageView.image = self.city.image;
     self.textView.text = self.city.overview;
     self.textView.textColor = [UIColor whiteColor];
-    self.title = self.city.name;
-    
-    NSLog(@"Text: %@", self.textView.text);
+    self.title = self.city.name;    
 }
 
 - (void)viewDidAppear:(BOOL)animated {
