@@ -21,7 +21,7 @@
 }
 
 - (void)updateInterfaceWithCity:(City *)city {
-    self.cityNameLabel.text = city.name;
+    self.cityNameLabel.text = [NSString stringWithFormat:@"%@, %@", city.name, city.country];
     self.populationLabel.text = city.population;
     self.cellBackgroundImageView.image = city.image;
 }

@@ -12,5 +12,6 @@
 @interface CityDetailViewController : UIViewController
 
 @property (nonatomic, strong) City *city;
+@property (nonatomic, weak) IBOutlet UIImageView*cityImageView;
 
 @end

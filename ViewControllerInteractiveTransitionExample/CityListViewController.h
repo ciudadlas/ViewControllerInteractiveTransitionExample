@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CityListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface CityListViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 
 @end
 

@@ -18,6 +18,7 @@
 		9F5834B11ABCDD9F00455B70 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834B01ABCDD9F00455B70 /* City.m */; };
 		9F5834B41ABCE22300455B70 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F5834B31ABCE22300455B70 /* Cities.plist */; };
 		9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */; };
+		9F5834BF1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5834BE1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9F5834B31ABCE22300455B70 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
 		9F5834B91ABD26E500455B70 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
 		9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		9F5834BD1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityListToCityDetailTransitionAnimator.h; sourceTree = "<group>"; };
+		9F5834BE1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListToCityDetailTransitionAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,11 +95,9 @@
 		9F5834831ABCD00500455B70 /* ViewControllerInteractiveTransitionExample */ = {
 			isa = PBXGroup;
 			children = (
-				9F5834881ABCD00500455B70 /* AppDelegate.h */,
-				9F5834891ABCD00500455B70 /* AppDelegate.m */,
-				9F5834AE1ABCDD8E00455B70 /* Models */,
-				9F5834B21ABCE08C00455B70 /* City List View */,
-				9F5834B81ABD222400455B70 /* City Detail View */,
+				9F5834AE1ABCDD8E00455B70 /* 00 - Core */,
+				9F5834B21ABCE08C00455B70 /* 01 - City List View */,
+				9F5834B81ABD222400455B70 /* 02 - City Detail View */,
 				9F58348E1ABCD00500455B70 /* Main.storyboard */,
 				9F5834911ABCD00500455B70 /* Images.xcassets */,
 				9F5834931ABCD00500455B70 /* LaunchScreen.xib */,
@@ -132,33 +133,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9F5834AE1ABCDD8E00455B70 /* Models */ = {
+		9F5834AE1ABCDD8E00455B70 /* 00 - Core */ = {
 			isa = PBXGroup;
 			children = (
-				9F5834AF1ABCDD9F00455B70 /* City.h */,
-				9F5834B01ABCDD9F00455B70 /* City.m */,
+				9F5834881ABCD00500455B70 /* AppDelegate.h */,
+				9F5834891ABCD00500455B70 /* AppDelegate.m */,
+				9F5834BC1ABD412000455B70 /* Data Model */,
 			);
-			name = Models;
+			name = "00 - Core";
 			sourceTree = "<group>";
 		};
-		9F5834B21ABCE08C00455B70 /* City List View */ = {
+		9F5834B21ABCE08C00455B70 /* 01 - City List View */ = {
 			isa = PBXGroup;
 			children = (
 				9F58348B1ABCD00500455B70 /* CityListViewController.h */,
 				9F58348C1ABCD00500455B70 /* CityListViewController.m */,
 				9F5834B91ABD26E500455B70 /* CityTableViewCell.h */,
 				9F5834BA1ABD26E500455B70 /* CityTableViewCell.m */,
+				9F5834BD1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.h */,
+				9F5834BE1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m */,
 			);
-			name = "City List View";
+			name = "01 - City List View";
 			sourceTree = "<group>";
 		};
-		9F5834B81ABD222400455B70 /* City Detail View */ = {
+		9F5834B81ABD222400455B70 /* 02 - City Detail View */ = {
 			isa = PBXGroup;
 			children = (
 				9F5834AA1ABCD2A200455B70 /* CityDetailViewController.h */,
 				9F5834AB1ABCD2A200455B70 /* CityDetailViewController.m */,
 			);
-			name = "City Detail View";
+			name = "02 - City Detail View";
+			sourceTree = "<group>";
+		};
+		9F5834BC1ABD412000455B70 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F5834AF1ABCDD9F00455B70 /* City.h */,
+				9F5834B01ABCDD9F00455B70 /* City.m */,
+			);
+			name = "Data Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 				9F5834AC1ABCD2A200455B70 /* CityDetailViewController.m in Sources */,
 				9F5834BB1ABD26E500455B70 /* CityTableViewCell.m in Sources */,
 				9F58348D1ABCD00500455B70 /* CityListViewController.m in Sources */,
+				9F5834BF1ABD41E000455B70 /* CityListToCityDetailTransitionAnimator.m in Sources */,
 				9F58348A1ABCD00500455B70 /* AppDelegate.m in Sources */,
 				9F5834871ABCD00500455B70 /* main.m in Sources */,
 			);
