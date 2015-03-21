@@ -26,7 +26,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         _cities = [City mostPopulatedCities];
-        self.title = @"World's Most Populated Cities";
+        self.title = @"World's Most Populous Cities";        
     }
     
     return self;

@@ -33,9 +33,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="shB-pD-I4C">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="120" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="shB-pD-I4C">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CityCell" rowHeight="120" id="Q4h-rm-9Hk" customClass="CityTableViewCell">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -84,7 +84,7 @@
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="shB-pD-I4C" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="49v-WU-bZb"/>
                             <constraint firstItem="shB-pD-I4C" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="Hdj-1M-ngU"/>
@@ -120,12 +120,13 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aaW-gu-pLx" firstAttribute="leading" secondItem="H2b-iW-qNS" secondAttribute="leading" id="CzR-Zl-FgF"/>
                             <constraint firstAttribute="trailing" secondItem="aaW-gu-pLx" secondAttribute="trailing" id="Es4-fw-rnz"/>
                             <constraint firstItem="XJQ-up-fh0" firstAttribute="top" secondItem="aaW-gu-pLx" secondAttribute="bottom" constant="416" id="Lho-Xm-DVD"/>
                             <constraint firstItem="aaW-gu-pLx" firstAttribute="top" secondItem="S3w-hN-2vj" secondAttribute="bottom" id="PUP-u4-f1I"/>
+                            <constraint firstAttribute="centerX" secondItem="aaW-gu-pLx" secondAttribute="centerX" id="lod-qp-Gh4"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
