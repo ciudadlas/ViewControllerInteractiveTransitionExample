@@ -1,6 +1,6 @@
 # ViewControllerInteractiveTransitionExample
 
-![ScreenShot](/preview/example.gif)
+![ScreenShot](/Screenshot/example.gif)
 
 This is an example of how to create a custom and interactive transition when switching between view controllers. On a high level, there are 3 steps to building the animation. For implementation details please review the source code until I have a more detailed write-up.
 
