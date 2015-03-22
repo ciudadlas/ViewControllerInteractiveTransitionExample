@@ -20,4 +20,4 @@ Once these animator classes are in place, we have to tell our view controllers t
 #### 3. Making the pop animation interactive
 At this point we have the custom animations working in our app. Now, we want to make the user be able to interact with this transition animation.
 
-To make the pop animation interactive, we add a gesutre recognizer for screen left edge panning on the detail view controller. We then update the `UIPercentDrivenInteractiveTransition` object when the gesture recognizer's action method is called. This updates the transition percentage of the view controller as the user pans.
+To make the pop animation interactive, we add a gesture recognizer for screen left edge panning on the detail view controller. We then update the `UIPercentDrivenInteractiveTransition` object when the gesture recognizer's action method is called. This updates the transition percentage of the view controller as the user pans.
