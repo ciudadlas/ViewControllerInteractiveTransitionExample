@@ -5,7 +5,7 @@
 This is an example of how to create a custom and interactive transition when switching between view controllers. On a high level, there are 3 steps to building the animation. For implementation details please review the source code until I have a more detailed write-up.
 
 #### 1. Creating the basic list and detail view controllers
-We start off with creating a view controller, `CityListViewController`, that holds our table view with a custom table view cell, `CityTableViewCell`. The `City` class provides the data for the application from the `City.plist` file included in the app.
+We start off with creating a view controller, `CityListViewController`, that holds our table view with a custom table view cell, `CityTableViewCell`. The `City` class provides the data for the application from the `Cities.plist` file included in the app.
 
 We then create the detail view controller, `CityDetailViewController`. When the user clicks a row in the table view, this view controller gets pushed onto the view stack.
 
