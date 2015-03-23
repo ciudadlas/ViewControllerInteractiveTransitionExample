@@ -14,7 +14,7 @@ Once we have the table view and the detail views in place, it's time to create t
 
 The animations will be managed by objects that conform to the `UIViewControllerAnimatedTransitioning` protocol. We create 2 classes that conform to this protocol, one for pushing the detail view controller, `CityListToCityDetailTransitionAnimator`, and for popping the detail view controller, `CityDetailToCityListTransitionAnimator`. The two required methods these classes implement from the `UIViewControllerAnimatedTransitioning` protocol are  `animateTransition:` and `transitionDuration:`
 
-Once these animator classes are in place, we have to tell our view controllers to use these when presenting view controllers. We set both view controllers as the delegate of their navigation controller so they are called to specify if they want to use a custom animation object. This is done in the `UINavigationControllorDelegate` protocol method 
+Once these animator classes are in place, we have to tell our view controllers to use these when presenting or dismissing view controllers. We set both view controllers as the delegate of their navigation controller so they are called to specify if they want to use a custom animation object. This is done in the `UINavigationControllorDelegate` protocol method 
 `navigationController:animationControllerForOperation:fromViewController:toViewController:`
 
 #### 3. Making the pop animation interactive
