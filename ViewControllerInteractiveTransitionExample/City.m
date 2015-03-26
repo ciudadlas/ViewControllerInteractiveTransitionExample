@@ -48,13 +48,18 @@
         NSString *country = [city objectForKey:@"country"];
         NSString *imageName = [city objectForKey:@"imageName"];
         
-        City *newCity = [[City alloc] initWithName:name
-                                        population:population
-                                          overview:overview
-                                           country:country
-                                             image:[UIImage imageNamed:imageName]];
+        if (name && population && overview && country && imageName) {
         
-        [cities addObject:newCity];
+            City *newCity = [[City alloc] initWithName:name
+                                            population:population
+                                              overview:overview
+                                               country:country
+                                                 image:[UIImage imageNamed:imageName]];
+            
+            [cities addObject:newCity];
+        } else {
+            NSLog(@"Missing data during city data parsing.");
+        }
     }
     
     return [NSArray arrayWithArray:cities];
